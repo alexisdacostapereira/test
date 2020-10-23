@@ -1,0 +1,7 @@
+---
+- name: motd
+  blockinfile:
+    path: /etc/motd
+    create: yes
+    marker: ""
+    block: 'Bienvenue sur le server'

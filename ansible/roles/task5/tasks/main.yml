@@ -1,0 +1,5 @@
+---
+- name: supmotd
+  file:
+    path: /etc/motd
+    state: absent

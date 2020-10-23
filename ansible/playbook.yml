@@ -1,0 +1,7 @@
+- hosts: root
+  roles:
+    - role: hostname
+    - role: create_user
+    - role: task6
+    - role: task5
+    - role: task5.1
